@@ -13,7 +13,7 @@ for i in range(len(ParalysedEEGFromWhithamEtAl.allsubjectdata)):
     plt.plot(f,psd,linewidth=1,label="dataset #{}".format(i))
 
 # Plot the average (no arguments needed here for the constructor)
-p = ParalysedEEGFromWhithamEtAl(i)
+p = ParalysedEEGFromWhithamEtAl()
 f = np.linspace(p.f_signal_min,p.f_signal_max,100)
 psd = p.EEGVariance(f)
 totalEEGPower = p.totalEEGPower()
