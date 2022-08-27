@@ -13,26 +13,23 @@ class ParalysedEEGFromWhithamEtAl:
     GNU GENERAL PUBLIC LICENSE
     Version 3, 29 June 2007
 
-    Log Power spectra of pure EEG from two temporarily paralysed
+    Power spectra of pure EEG from two temporarily paralysed
     subjects. Data adapted from the figures in:
 
     Scalp electrical recording during paralysis: Quantitative evidence that
     EEG frequencies above 20 Hz are contaminated by EMG
     Emma M. Whitham a , Kenneth J. Pope b , Sean P. Fitzgibbon c , Trent Lewis b ,
     C. Richard Clark c , Stephen Loveless d , Marita Broberg e , Angus Wallace e ,
-    Dylan DeLosAngeles e , Peter Lillie f , Andrew Hardy f , Rik
-
-    by having manually clicked on the datapoints of the 6 PSD plots
-    in the paper and then done a polynomial fit to smooth out the errors
-    from the manual clicking.
+    Dylan DeLosAngeles e , Peter Lillie f , Andrew Hardy f , Rik:
+    Clinical Neurophysiology Volume 118, Issue 8, August 2007, Pages 1877-1888.
     """
 
-    f_signal_min = 1
-    f_signal_max = 95
+    f_signal_min = 1 # minimum frequency accepted by EEGVariance()
+    f_signal_max = 95 # maximum frequency accepted by EGVariance()
 
     def __init__(self,datasetIndex = -1,degree = 15):
         """
-        Provides the power spectrum from Figure `datasetIndex` from Whitham et al
+        Constructor which prepares the power spectrum from Figure `datasetIndex` from Whitham et al
         using a polynomial fit. The default degreee is 15. If no datasetIndex is
         given or is negative then average from all 6 figures from the paper is calculated.
         """
@@ -411,6 +408,6 @@ class ParalysedEEGFromWhithamEtAl:
        [ 95.085714, -14.424   ],
        [ 97.6     , -14.44    ]])
 
-    allsubjectdata = [sub1a, sub1b, sub1c, sub2a, sub2b, sub2c]
+    allsubjectdata = [sub1a, sub1b, sub1c, sub2a, sub2b, sub2c] # array pointing to the separate datasets
     allsubjectdesciption = ['subject1 1st PSD', 'subject1 2nd PSD', 'subject1 3rd PSD',
-                            'subject2 1st PSD', 'subject2 2nd PSD', 'subject2 3rd PSD']
+                            'subject2 1st PSD', 'subject2 2nd PSD', 'subject2 3rd PSD'] # descriptions of the datasets
