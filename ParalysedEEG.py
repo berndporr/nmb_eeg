@@ -20,7 +20,7 @@ class ParalysedEEGFromWhithamEtAl:
     EEG frequencies above 20 Hz are contaminated by EMG
     Emma M. Whitham a , Kenneth J. Pope b , Sean P. Fitzgibbon c , Trent Lewis b ,
     C. Richard Clark c , Stephen Loveless d , Marita Broberg e , Angus Wallace e ,
-    Dylan DeLosAngeles e , Peter Lillie f , Andrew Hardy f , Rik:
+    Dylan DeLosAngeles e , Peter Lillie f , Andrew Hardy f , Rik.
     Clinical Neurophysiology Volume 118, Issue 8, August 2007, Pages 1877-1888.
     """
 
@@ -29,9 +29,9 @@ class ParalysedEEGFromWhithamEtAl:
 
     def __init__(self,datasetIndex = -1,degree = 15):
         """
-        Constructor which prepares the power spectrum from Figure `datasetIndex` from Whitham et al
+        Constructor which prepares the power spectrum from Figure `datasetIndex` from Whitham et al 2007
         using a polynomial fit. The default degreee is 15. If no datasetIndex is
-        given or is negative then average from all 6 figures from the paper is calculated.
+        given or is negative then the average from all 6 figures from the paper is calculated.
         """
         if datasetIndex in range(len(self.allsubjectdata)):
             a = self.allsubjectdata[datasetIndex]
@@ -53,13 +53,15 @@ class ParalysedEEGFromWhithamEtAl:
 
     def EEGVariance(self,frequency):
         """
-        Returns the EEG variance (i.e. power spectral density) at the specified frequency
+        Returns the EEG variance (i.e. power spectral density) in V^2/Hz at the specified frequency or 
+        frequency ranges if frequency is a numpy array. The lowest permitted frequency is
+        `f_signal_min` and the highest `f_signal_max`.
         """
         return self.psd_coeff(frequency)
 
     def totalEEGPower(self):
         """
-        Calculates the total power of the EEG.
+        Calculates the total power of the EEG in V^2 between `f_signal_min` and `f_signal_max`.
         """
         totalpower = 0
         for f in np.arange(self.f_signal_min,self.f_signal_max,1.0):

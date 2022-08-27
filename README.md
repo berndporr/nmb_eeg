@@ -29,30 +29,23 @@ If you want to extract the PSD of dataset one do:
 p = ParalysedEEGFromWhithamEtAl(1)
 ```
 
-Obtain the power spectral density by providing either
-a single frequency f or a numpy array to calculate multiple
-points:
+Obtain the power spectral density in V^2/Hz use:
 ```
 psd = p.EEGVariance(f)
 ```
+where `f` can be either a single frequency or a numpy array.
+The lowest permitted frequency is
+`f_signal_min` and the highest `f_signal_max`.
 
-or the total power of the entire frequency range:
+The total power of the entire frequency range from `f_signal_min` to `f_signal_max` is:
 ```
 totalEEGPower = p.totalEEGPower()
 ```
 
-The frequency range can be obtained from `f_signal_min` and
-`p.f_signal_max` which can be used to generate the frequency
-axis:
-
-```
-f = np.linspace(p.f_signal_min,p.f_signal_max,100)
-```
-
 Because `EEGVariance(f)` accepts a numpy array plotting the spectrum
 is simply:
-
 ```
+f = np.linspace(p.f_signal_min,p.f_signal_max,100)
 plt.plot(f,p.EEGVariance(f))
 ```
 
