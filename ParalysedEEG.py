@@ -14,7 +14,7 @@ class ParalysedEEGFromWhithamEtAl:
     Version 3, 29 June 2007
 
     Power spectra of pure EEG from two temporarily paralysed
-    subjects. Data adapted from the figures in:
+    subjects. Data adapted from Figure 1, B-traces in:
 
     Scalp electrical recording during paralysis: Quantitative evidence that
     EEG frequencies above 20 Hz are contaminated by EMG
@@ -411,5 +411,5 @@ class ParalysedEEGFromWhithamEtAl:
        [ 97.6     , -14.44    ]])
 
     allsubjectdata = [sub1a, sub1b, sub1c, sub2a, sub2b, sub2c] # array pointing to the separate datasets
-    allsubjectdesciption = ['subject1 1st PSD', 'subject1 2nd PSD', 'subject1 3rd PSD',
-                            'subject2 1st PSD', 'subject2 2nd PSD', 'subject2 3rd PSD'] # descriptions of the datasets
+    allsubjectdesciption = ['Subject 1, 1st trace', 'Subject 1, 2nd trace', 'Subject 1, 3rd trace',
+                            'Subject 2, 1st trace', 'Subject 2, 2nd trace', 'Subject 2, 3rd trace'] # descriptions of the datasets

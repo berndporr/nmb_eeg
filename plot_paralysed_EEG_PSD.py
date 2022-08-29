@@ -10,7 +10,7 @@ for i in range(len(ParalysedEEGFromWhithamEtAl.allsubjectdata)):
     psd = p.EEGVariance(f)
     totalEEGPower = p.totalEEGPower()
     print("Average EEG voltage is (uV):",round((totalEEGPower**0.5)*1E6))
-    plt.plot(f,psd,linewidth=1,label="dataset #{}".format(i))
+    plt.plot(f,psd,linewidth=1,label=p.allsubjectdesciption[i])
 
 # Plot the average (no arguments needed here for the constructor)
 p = ParalysedEEGFromWhithamEtAl()
