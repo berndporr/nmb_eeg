@@ -6,7 +6,7 @@ import math as math
 import scipy.stats as stats
 from numpy.polynomial import Polynomial
 
-class ParalysedEEGFromWhithamEtAl:
+class NMB_EEG_From_WhithamEtAl:
     """
     (C) 2022 Bernd Porr <bernd.porr@glasgow.ac.uk>
 
@@ -14,7 +14,7 @@ class ParalysedEEGFromWhithamEtAl:
     Version 3, 29 June 2007
 
     Power spectra of pure EEG from two temporarily paralysed
-    subjects. Data adapted from Figure 1, B-traces in:
+    subjects. Data from Figure 1, B-traces:
 
     Scalp electrical recording during paralysis: Quantitative evidence that
     EEG frequencies above 20 Hz are contaminated by EMG

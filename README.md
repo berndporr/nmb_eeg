@@ -18,12 +18,12 @@ Pages 1877-1888.](https://www.sciencedirect.com/science/article/abs/pii/S1388245
 To obtain the average PSD over all experiments just use
 the default constructor:
 ```
-p = ParalysedEEGFromWhithamEtAl()
+p = NMB_EEG_From_WhithamEtAl()
 ```
 
 If you want to extract the PSD of dataset one do:
 ```
-p = ParalysedEEGFromWhithamEtAl(1)
+p = NMB_EEG_From_WhithamEtAl(1)
 ```
 
 Obtain the power spectral density in V^2/Hz use:
