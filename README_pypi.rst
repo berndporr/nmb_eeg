@@ -1,5 +1,5 @@
-Pure EEG power
-==============
+Pure EEG power during paralysis
+===============================
 
 Power spectra of pure EEG from two temporarily paralysed subjects.
 
@@ -13,7 +13,7 @@ Dylan DeLosAngeles e , Peter Lillie f , Andrew Hardy f , Rik.
 Clinical Neurophysiology Volume 118, Issue 8, August 2007,
 Pages 1877-1888. <https://www.sciencedirect.com/science/article/abs/pii/S1388245707001988>`_
 
-Please cite with "Data from ..." as outlined above. This has been advised by Elesevier's Copyrights Coordinator.
+Please cite as "Data from ..." as outlined above. This has been advised by Elesevier's Copyrights Coordinator.
 
 
 Usage
