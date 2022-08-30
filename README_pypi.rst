@@ -57,8 +57,7 @@ Run::
 
   plot_paralysed_EEG_PSD.py
 
-which generates the plot at the top of this page.
-
+from the github page: https://github.com/berndporr/nmb_eeg
 
 
 Credit
