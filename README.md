@@ -7,9 +7,9 @@ Data from (Fig 1, B-traces):
 
 [Scalp electrical recording during paralysis: Quantitative evidence that
 EEG frequencies above 20 Hz are contaminated by EMG
-Emma M. Whitham a , Kenneth J. Pope b , Sean P. Fitzgibbon c , Trent Lewis b ,
-C. Richard Clark c , Stephen Loveless d , Marita Broberg e , Angus Wallace e ,
-Dylan DeLosAngeles e , Peter Lillie f , Andrew Hardy f , Rik.
+Emma M. Whitham, Kenneth J. Pope, Sean P. Fitzgibbon, Trent Lewis,
+C. Richard Clark, Stephen Loveless, Marita Broberg, Angus Wallace,
+Dylan DeLosAngeles, Peter Lillie, Andrew Hardy, Rik.
 Clinical Neurophysiology Volume 118, Issue 8, August 2007,
 Pages 1877-1888.](https://www.sciencedirect.com/science/article/abs/pii/S1388245707001988)
 
