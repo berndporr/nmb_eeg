@@ -17,6 +17,14 @@ Please cite as "Data from ..." as outlined above. This has been advised by Elsev
 
 ![alt tag](individual_average.png)
 
+## Installation
+
+Locally by just running `python setup.py install` or via pypi:
+
+```
+pip install nmb_eeg
+```
+
 ## Usage
 
 To obtain the average PSD over all experiments just use
