@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 import numpy as np
-import matplotlib.pyplot as plt
-import scipy.signal as signal
-import math as math
-import scipy.stats as stats
 from numpy.polynomial import Polynomial
 
 class NMB_EEG_From_WhithamEtAl:
