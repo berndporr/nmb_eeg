@@ -3,7 +3,7 @@
 Power spectra of pure EEG from two temporarily paralysed
 subjects.
 
-Data from Fig 1, B-traces of:
+Data from (Fig 1, B-traces):
 
 [Scalp electrical recording during paralysis: Quantitative evidence that
 EEG frequencies above 20 Hz are contaminated by EMG
