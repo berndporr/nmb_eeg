@@ -7,7 +7,7 @@ with open('README_pypi.rst') as f:
 
 setup(
     name='nmb_eeg',
-    version='0.9',
+    version='1.0',
     description="Power spectra of pure EEG from two temporarily paralysed subjects from Whitham et al 2007",
     long_description=long_description,
     author='Bernd Porr',
