@@ -64,3 +64,8 @@ Credit
 ------
 
 Bernd Porr <bernd.porr@glasgow.ac.uk>
+
+
+
+.. image:: https://zenodo.org/badge/529194569.svg
+   :target: https://zenodo.org/badge/latestdoi/529194569

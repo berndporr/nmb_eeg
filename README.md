@@ -1,5 +1,7 @@
 # Pure EEG power during paralysis
 
+[![DOI](https://zenodo.org/badge/529194569.svg)](https://zenodo.org/badge/latestdoi/529194569)
+
 Power spectra of pure EEG from two temporarily paralysed
 subjects.
 
