@@ -68,6 +68,35 @@ plot_paralysed_EEG_PSD.py
 ```
 which generates the plot at the top of this page.
 
-# Credit
+
+
+## Class reference
+
+```
+    class NMB_EEG_From_WhithamEtAl(builtins.object)
+     |  NMB_EEG_From_WhithamEtAl(datasetIndex=-1, degree=15)
+     |  
+     |  __init__(self, datasetIndex=-1, degree=15)
+     |      Constructor which prepares the power spectrum from Figure `datasetIndex` from Whitham et al 2007
+     |      using a polynomial fit. The default degreee is 15. If no datasetIndex is
+     |      given or is negative then the average from all 6 figures from the paper is calculated.
+     |  
+     |  EEGVariance(self, frequency)
+     |      Returns the EEG variance (i.e. power spectral density) in V^2/Hz at the specified frequency or 
+     |      frequency ranges if frequency is a numpy array. The lowest permitted frequency is
+     |      `f_signal_min` and the highest `f_signal_max`.
+     |  
+     |  totalEEGPower(self)
+     |      Calculates the total power of the EEG in V^2 between `f_signal_min` and `f_signal_max`.
+     |  
+     |  allsubjectdesciption = ['Subject 1, 1st trace', 'Subject 1, 2nd trace'...
+     |  
+     |  f_signal_max = 95
+     |  
+     |  f_signal_min = 1
+```
+
+
+## Credit
 
 Bernd Porr <bernd.porr@glasgow.ac.uk>
