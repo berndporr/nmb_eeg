@@ -15,7 +15,9 @@ Dylan DeLosAngeles, Peter Lillie, Andrew Hardy, Rik.
 Clinical Neurophysiology Volume 118, Issue 8, August 2007,
 Pages 1877-1888.](https://www.sciencedirect.com/science/article/abs/pii/S1388245707001988)
 
-Please cite as "Data from ..." as outlined above. This has been advised by Elsevier's Copyrights Coordinator.
+I've contacted Elsevier's Copyrights Coordinator and he confirmed that there is no need to obtain formal permission
+from Elsevier. You merely need to acknowledge the original source. Please cite as "Data from Whitham 2007 ..." (see
+https://www.elsevier.com/about/policies/copyright/permissions).
 
 ![alt tag](individual_average.png)
 
